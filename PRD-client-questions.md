@@ -1,0 +1,3 @@
+Question 1: When you look up a past event, what is the piece of info that is most important/most relevant? What are you trying to accomplish by sorting through past events?
+Question 2: If there have been no-shows or repeat speakers, how would you like that to be dealt with? No shows not shown up unless specified? Repeat speakers grouped as one?
+Question 3: What part of the process causes the most friction/frustration? What part is "most enjoyable"? 
