@@ -1,16 +1,3 @@
-# Client Discovery Questions
-
-Question 1: Walk me through the last time you needed to look something up from a past
-event - what were you looking for, why did you need it, and how did you go about
-finding it? What would have made that faster or easier?
-
-Question 2: Thinking about the whole process of building and managing a schedule from
-start to finish - from the first draft to the final agenda that goes out - where do you
-get stuck, feel frustrated, or dread starting? On the flip side, is there any part you
-actually enjoy or feel is already working well that we shouldn't touch?
-
-Question 3: If you handed me a "finished" schedule for one of your events, what else
-would need to be in there beyond the speakers, topics, and time blocks for it to
-actually be usable and complete - things like meals, breaks, venue/room details,
-sponsor logistics, or other recurring elements? Is there anything in past agendas that
-seems like a small detail but actually matters a lot?
+Question 1: When you look up a past event, what is the piece of info that is most important/most relevant? What are you trying to accomplish by sorting through past events?
+Question 2: What part of the process causes the most friction/frustration? What part is "most enjoyable"?
+Question 3: Once a new schedule is built in the system, how do you need to get it out and use it - do you need a polished document (Word or PDF) to send to attendees or print, or would working directly from the tool be enough?
