@@ -59,31 +59,54 @@ system for storing this historical data and assembling new schedules from it.
 
 ## User Stories
 
-*(Draft - presented for review, not yet fully confirmed)*
-
-1. As the coordinator, I want to **enter a past event's schedule into a standard
+1. As the coordinator, I want to **enter a past event's schedule into the standard
    format** so that all historical events (2016-2026) live in one consistent structure.
 2. As the coordinator, I want to **add, edit, or delete a session/speaker/time-block
    record** so that I can fix mistakes or update details without recreating the whole
    event.
-3. As the coordinator, I want to **search past events** (by program, year, speaker, or
+3. As the coordinator, I want to **search old events** (by program, year, speaker, or
    topic) so that I can quickly find precedent when planning.
-4. As the coordinator, I want to **build a new multi-day event schedule** by pulling
-   from past sessions/speakers/structure, so that I don't have to start from a blank
-   page every time.
-5. As the coordinator, I want to **back up and restore the data** so that I don't lose
+4. As the coordinator, I want to **edit an old event's details** so that historical
+   records stay accurate over time (e.g., correcting a speaker name after the fact).
+5. As the coordinator, I want to **create a new event schedule**, pulling from past
+   sessions/speakers/structure, so that I don't start from a blank page every time.
+   *(Whether this starts from a template or from scratch is still pending client
+   input - see client question 7.)*
+6. As the coordinator, I want to **export the finished schedule** (format TBD) so I can
+   share/distribute it once it's built.
+7. As the coordinator, I want to **back up and restore the data** so that I don't lose
    years of historical records to a mistake or crash.
-6. As the coordinator, I want to **see basic analysis** (e.g., how time is allocated
+8. As the coordinator, I want to **see basic analysis** (e.g., how time is allocated
    across topics, session runtimes over the years) so that I can spot patterns when
    planning future events.
 
 ## Functional Requirements
 
-*(TBD - to be derived from the User Stories above once confirmed)*
+1. The system must store all event data (past and new) in an organized, structured
+   format - not free-text documents - capturing program, year, event name, days, time
+   blocks, sessions, and speakers.
+2. The system must apply one standardized schema to every event, regardless of program
+   or original source format.
+3. The coordinator must be able to add, edit, and delete individual records (events,
+   sessions, speakers, time blocks) without code or direct database access.
+4. The coordinator must be able to search/filter past events by program, year, speaker,
+   or topic.
+5. The system must provide basic analysis on time allocation and session runtimes
+   across events and years.
+6. The system must support backing up all data and restoring it from a backup.
+7. The coordinator must be able to build/assemble a new multi-day event schedule using
+   the standard structure, drawing on past events' data.
+8. The coordinator must be able to export a finished schedule for distribution (format
+   TBD).
 
 ## Out of Scope
 
-*(TBD)*
+- Attendee/engagement tracking (no such data exists in the source files).
+- Multi-user simultaneous editing.
+- A mobile app.
+- Automated speaker-conflict detection.
+- Migrating the original Word/PDF *files* themselves into the new system - only their
+  *data* is migrated into the standardized format.
 
 ---
 
